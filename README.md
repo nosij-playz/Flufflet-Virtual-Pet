@@ -19,7 +19,7 @@ Flufflet is an interactive 3D virtual pet application built with Node.js, Expres
 
 ---
 ## 📷 Screenshot
-![App Screenshot](Pic/Screenshot.png)
+![App Screenshot](Pics/Screenshot.png)
 
 ## 🚀 Getting Started
 

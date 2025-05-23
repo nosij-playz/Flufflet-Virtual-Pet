@@ -57,7 +57,7 @@ virtual pet/
 ## 🙋‍♂️ Contact
 
 For queries, suggestions, or collaborations, visit:  
-👉 [https://myporfolio-1o1h.onrender.com/contact](https://myporfolio-1o1h.onrender.com/contact)
+👉 [contact me](https://myporfolio-1o1h.onrender.com/contact)
 
 ---
 

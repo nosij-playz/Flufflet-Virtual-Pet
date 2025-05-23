@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Pet</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+</head>
+<body>
+  <h1>Flufflet: Virtual Pet</h1>
+  <div class="main-container">
+    <!-- 3D Pet Section using Spline Viewer -->
+    <div class="pet-3d">
+      <spline-viewer id="pet" url="https://prod.spline.design/be7PaNdyuJCiiG0M/scene.splinecode"></spline-viewer>
+    </div>
+
+    <!-- UI and Controls -->
+    <div class="pet-ui">
+      <div class="attributes">
+        <div class="attribute"><span id="hunger">🍗🍗🍗🍗🍗🍗🍗🍗🍗</span></div>
+        <div class="attribute"><span id="happiness">❤️❤️❤️❤️❤️❤️❤️❤️❤️</span></div>
+        <div class="attribute"><span id="energy">⚡⚡⚡⚡⚡⚡⚡⚡⚡</span></div>
+      </div>
+
+      <div class="buttons">
+        <button id="feed-btn">Feed </button>
+        <button id="play-btn">Play </button>
+        <button id="sleep-btn">Sleep </button>
+        <button id="sing-btn">🎵 Sing a Song</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Voice Bubble -->
+  <div id="speech-bubble" style="
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1000;
+  "></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

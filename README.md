@@ -23,7 +23,7 @@ Flufflet is an interactive 3D virtual pet application built with Node.js, Expres
 
 ### 1. Clone the Project
 ```bash
-git clone [<repository-url>](https://github.com/nosij-playz/Flufflet-Virtual-Pet.git)
+git clone https://github.com/nosij-playz/Flufflet-Virtual-Pet.git
 cd "virtual pet"
 ```
 
